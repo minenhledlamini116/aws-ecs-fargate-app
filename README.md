@@ -51,3 +51,24 @@ The load balancer and two small Fargate containers cost a few cents per hour. De
 - Add HTTPS with a certificate and a custom domain
 - Add autoscaling based on CPU
 - Add CloudWatch alarms for failed health checks
+
+- ## Screenshots
+
+### The app
+![App, first container](picture2.png)
+![App, second container](picture3.png)
+
+### The pipeline
+![First deploy](picture1.png)
+![Second deploy after a push](picture4.png)
+![Updated app](picture5.png)
+
+### Inside AWS
+![ECS service](picture6.png)
+![Healthy targets](picture7.png)
+![ECS tasks](picture8.png)
+![ECR images](picture9.png)
+
+### Clean up
+![Destroy complete](picture10.png)
+
