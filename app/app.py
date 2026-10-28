@@ -38,7 +38,7 @@ PAGE = """
 </head>
 <body>
   <div class="card">
-    <h1>Running on ECS Fargate</h1>
+    <h1>Running on ECS Fargate v2</h1>
     <p>Container ID: <code>{{ host }}</code></p>
     <p>Build: <code>{{ build }}</code></p>
     <p>Time: {{ now }}</p>
